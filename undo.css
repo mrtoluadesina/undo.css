@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*removes padding and margin*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/*Gives major semantic elements full width*/
+header,
+main,
+section,
+article,
+aside,
+nav,
+menu,
+footer {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*removes list styles for navigation menu*/
+nav ul {
+    list-style: none;
+}
+
+/*add responsiveness to images and removes border for images inside links IE*/
+img,
+video,
+picture,
+audio,
+embed {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;+
+}
+
+
+td,
+th {
+    padding: 0;
+    text-align: inherit;
+}
